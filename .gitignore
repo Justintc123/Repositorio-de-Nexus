@@ -1,0 +1,56 @@
+# Entornos y secretos
+.env
+.env.*
+!.env.example
+*secret*
+*token*
+credenciales/
+
+# Bases y datos runtime
+*.db
+*.sqlite
+*.sqlite3
+data/
+logs/
+backups/
+reportes/
+documentos/
+campus_data.json
+usuarios.json
+faltas.json
+nexus.json
+config.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Builds
+build/
+dist/
+*.spec
+*.exe
+*.zip
+
+# Copia publica solo documental: no publicar implementacion ni archivos de datos
+src/
+firmware/
+hardware/pcb/
+scripts/
+*.py
+*.js
+*.ts
+*.ino
+*.json
+*.db*
+*.sqlite*
+*.pyc
+*.pyo
+
+# Sistema/editor
+.DS_Store
+Thumbs.db
+.vscode/
