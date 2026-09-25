@@ -3,6 +3,7 @@
 ## Lectura institucional
 
 - [Presentación para la Municipalidad de San Martín](./01_INFORME_MUNICIPALIDAD.md)
+- [Informes de avance mensuales](./informes_avance/00_INDICE_INFORMES_AVANCE.md)
 - [Informe de avance del segundo mes](./INFORME_AVANCE_MES_2_NEXUS_ARYOS.md)
 - [Mejoras realizadas en Nexus y A.R.Y.O.S](./MEJORAS_NEXUS_ARYOS.md)
 - [Informes semanales](./informes_semanales/00_INDICE_INFORMES_SEMANALES.md)
@@ -10,12 +11,7 @@
 
 ## Organización del equipo
 
-- [Lectura inicial y reparto de tareas](./jueves/00_LEER_PRIMERO_JUEVES.md)
-- [Coordinación](./jueves/01_SANTI_COORDINACION.md)
-- [Placa y pantalla](./jueves/02_FRANCO_PLACA_PANTALLA.md)
-- [Carcasa](./jueves/03_JUATA_CARCASA.md)
-- [PCB y conexiones](./jueves/04_TIZI_IAN_PCB.md)
-- [Control de presentación](./jueves/05_CONTROL_PRESENTACION.md)
+- [Roles y responsabilidades](./informes_complementarios/01_roles_y_responsabilidades.pdf)
 
 ## Descripción funcional
 

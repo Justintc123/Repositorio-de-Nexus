@@ -18,9 +18,10 @@ docentes, familias y personas que no trabajen habitualmente con computadoras.
 
 1. [Presentación institucional](docs/01_INFORME_MUNICIPALIDAD.md)
 2. [Índice general](docs/00_INDICE_GENERAL.md)
-3. [Informe de avance del segundo mes](docs/INFORME_AVANCE_MES_2_NEXUS_ARYOS.md)
-4. [Informes semanales](docs/informes_semanales/00_INDICE_INFORMES_SEMANALES.md)
-5. [Informes complementarios](docs/informes_complementarios/)
+3. [Informes de avance mensuales](docs/informes_avance/00_INDICE_INFORMES_AVANCE.md)
+4. [Informe de avance del segundo mes](docs/INFORME_AVANCE_MES_2_NEXUS_ARYOS.md)
+5. [Informes semanales](docs/informes_semanales/00_INDICE_INFORMES_SEMANALES.md)
+6. [Informes complementarios](docs/informes_complementarios/)
 
 ## Qué contiene
 

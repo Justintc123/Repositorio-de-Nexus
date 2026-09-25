@@ -281,7 +281,7 @@ para uso institucional.
 - `docs/hardware/PINOUT_PCB_R4.md`
 - `docs/hardware/BOM_PCB_R4.md`
 - `docs/hardware/CABLEADO_SIN_CRUCES_PCB_R4.md`
-- `docs/jueves/`, con las tareas de integración y presentación.
+- documentación de integración, pruebas y presentación del proyecto.
 
 ---
 
