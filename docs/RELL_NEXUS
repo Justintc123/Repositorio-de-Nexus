@@ -1,0 +1,30 @@
+1. El Gancho (0:00 - 0:08) — 
+El problema real
+- Visual: Tomas cuidadosas y estéticas (B-roll) de pasillos de escuela, planillas de papel acumuladas, pantallas con desorden de datos, intercalado con una toma seria de una computadora escribiendo código o mostrando la plataforma oscura y limpia.
+- Texto en pantalla (Tipografía sobria y elegante, ej. Helvetica o Montserrat): La gestión escolar sigue anclada en el pasado.
+- Voz en off (Tono seguro, pausado y profesional):
+- "En la mayoría de las instituciones educativas, la información sigue fragmentada entre planillas de papel, carpetas y mensajes dispersos. Esto genera pérdida de tiempo y errores inevitables."
+2. La Presentación de Nexus (0:08 - 0:20) — La arquitectura del sistema
+- Visual: Transición limpia (corte directo o fade suave). Planos detalle de la plataforma web A.R.Y.O.S navegando por los perfiles (Asistencia, Notas, Calificaciones por trimestre, Reportes de convivencia).
+- Texto en pantalla: Nexus + A.R.Y.O.S: Centralizar para optimizar.
+- Voz en off:
+- "Frente a este desafío desarrollamos Nexus junto a A.R.Y.O.S: una plataforma integral que centraliza el flujo de información escolar. Un ecosistema único dividido en perfiles específicos para alumnos, profesores, preceptores y tutores."
+3. La Integración Física / Hardware (0:20 - 0:38) — Ingeniería aplicada
+- Visual: Cortes dinámicos pero sobrios de hardware: el acercamiento de una tarjeta al lector RFID, la luz indicadora, la placa STM32, y las pruebas con los módulos ESP32-C3. (Opcional: un plano corto del diseño de la PCB en la pantalla de la PC).
+- Texto en pantalla: Tecnología RFID + Hardware embebido.
+- Voz en off:
+- "Pero no nos limitamos al software. Integramos desarrollo físico mediante un sistema de registro de asistencia con tecnología RFID. A través de microcontroladores STM32 y módulos ESP32-C3, logramos conectar el mundo físico con el digital en tiempo real, resolviendo problemas de infraestructura y conectividad."
+4. El Valor del Aprendizaje y el Equipo (0:38 - 0:50) — Quiénes somos
+- Visual: Planos del equipo (Justin, Tiziano, Juan Martín, Franco, Santiago, Ian y Tiziano Arrieta) trabajando en conjunto, soldando, revisando esquemáticos, con una atmósfera de trabajo real y enfocada.
+- Texto en pantalla: Desarrollo multidisciplinario / 65% de avance.
+- Voz en off:
+- "Detrás de este desarrollo hay un equipo enfocado en la programación, la electrónica y el diseño. Tras superar desafíos técnicos —como la optimización de componentes y la protección de circuitos—, el proyecto se encuentra en un 65% de avance con prototipos funcionales ya validados."
+5. Cierre y Proyección (0:50 - 1:00) — Conclusión seria
+- Visual: Toma final estética del dispositivo finalizado o la interfaz web principal con el nombre del proyecto. Texto de cierre elegante.
+- Texto en pantalla: Próxima parada: Implementación final.
+- Voz en off:
+- "Estamos ultimando la fabricación de la PCB y la validación final del sistema de cara al cierre de esta etapa. Nexus no es solo un proyecto escolar; es una muestra de cómo la tecnología puede transformar la organización institucional."
+🎬 Consejos de Producción para este estilo:
+- Cero efectos exagerados: Evita los sonidos de meme o transiciones con mucho movimiento (glitch pesado). Opta por cortes limpios sincronizados con los golpes de la música.
+- Color grading (Filtro de color): Dale un tono un poco más frío o cinematográfico al video (con buen contraste), lo que le dará un aspecto mucho más técnico y formal.
+- Ritmo de la voz: Habla con seguridad, sin apurarte, marcando bien los conceptos clave como A.R.Y.O.S, RFID y arquitectura.
