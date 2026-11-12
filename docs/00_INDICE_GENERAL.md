@@ -1,5 +1,12 @@
 # Índice general
 
+## Última actualización
+
+- [Avances al 12/11/2026 — aproximadamente 90% según el equipo](./ACTUALIZACION_AVANCES_2026-11-12.md)
+
+Incluye campus v69, clientes Android y Windows, activación por correo, servidor,
+UART, puente USB y estado pendiente de la prueba ESP-NOW completa.
+
 ## Lectura institucional
 
 - [Presentación para la Municipalidad de San Martín](./01_INFORME_MUNICIPALIDAD.md)

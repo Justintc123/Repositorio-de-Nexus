@@ -1,5 +1,37 @@
 # Protocolos de conexión rapida Nexus + ARYOS
 
+## Actualización del montaje — 12/11/2026
+
+La prueba actual informada usa **STM32F446RE**, UART **A0/PA0 TX → GPIO4 RX**
+y **A1/PA1 RX ← GPIO5 TX**, a **115200 baudios**. Ambas ESP32-C3 trabajan en
+ESP-NOW canal **6**. Estas conexiones sustituyen las referencias PA2/PA3 para
+este montaje concreto; los demás pines históricos deben cotejarse por separado.
+
+La UART funciona en ambos sentidos según el equipo, pero la emisora devuelve
+`ESP-NOW TIMEOUT`. Para cerrar la prueba:
+
+1. Identificar el COM real de la receptora; COM4 fue observado en la PC de prueba.
+2. Confirmar que solo un puente use ese COM a 115200 y cerrar monitores serie.
+3. En la instalación mediante Nexus.exe, revisar localmente la configuración de
+   `C:\ProgramData\Nexus\server.json` y la tarea `Nexus School`. No publicar
+   ese archivo, porque puede incluir configuración privada.
+4. Pulsar USER y comprobar una solicitud `attendance_request` para
+   `DEMO-BOTON-001` en el puente de esa instalación.
+5. Confirmar una respuesta `attendance_result`, con el mismo `event_id` y
+   terminada en salto de línea, que regrese hasta la STM32.
+6. Un rechazo de credencial desconocida permite comprobar comunicación; no
+   equivale a una asistencia registrada. La credencial demo se preparó en la
+   copia local y no se presupone existente en otras bases.
+
+El puerto web debe ser el configurado realmente: 8010 aparece en instalaciones
+anteriores y 8011 en el campus local de desarrollo. Una web disponible no prueba
+que funcione la radio ni que haya un puente USB activo. No reflashear ni restaurar
+una base como primer paso de diagnóstico.
+
+Ver [avances y validaciones pendientes](ACTUALIZACION_AVANCES_2026-11-12.md).
+
+## Protocolos generales de referencia
+
 Objetivo: que preceptoría o soporte pueda recuperar asistencia y comunicaciones rapido ante fallas de servidor, WiFi, ESP32-C3, STM32, RFID RDM6300, pantalla TFT o perdida de conexión con ARYOS.
 
 ## Regla general de primeros 60 segundos
@@ -50,7 +82,7 @@ Objetivo: que preceptoría o soporte pueda recuperar asistencia y comunicaciones
 1. Verificar alimentación 3V3 y GND comun.
 2. Resetear ESP32-C3 receptora.
 3. Revisar firmware, SSID/red o canal ESP-NOW.
-4. Confirmar UART: STM32 PA2 TX hacia GPIO4 RX ESP32 y STM32 PA3 RX hacia GPIO5 TX ESP32.
+4. Para el montaje actual, confirmar UART: STM32 A0/PA0 TX hacia GPIO4 RX ESP32 y A1/PA1 RX hacia GPIO5 TX ESP32, a 115200. PA2/PA3 corresponde al diseño anterior.
 5. Si no vuelve, pasar a asistencia manual y dejar incidencia técnica.
 
 ## Protocolo D: RFID RDM6300 no lee

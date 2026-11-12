@@ -1,5 +1,10 @@
 # Nexus STM32 Hub R4 Clean Dupont
 
+> Documentación del diseño anterior. La fabricación no se presenta como
+> confirmada en esta actualización. El montaje actual informado utiliza
+> STM32F446RE y UART PA0/PA1: cotejarlo con la revisión de PCB antes de montar.
+> Consultar los [avances del 12/11/2026](../ACTUALIZACION_AVANCES_2026-11-12.md).
+
 PCB de interconexion para usar cables Dupont sin protoboard.
 
 Cada bloque tiene dos headers: `DESDE_NUCLEO` y `HACIA_MODULO`. Conectas la Nucleo al primer header y el sensor/módulo al segundo. La PCB une cada pin con pista corta y recta, sin buses largos cruzando la placa.

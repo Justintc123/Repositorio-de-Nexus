@@ -1,5 +1,7 @@
 # Nexus + A.R.Y.O.S
 
+<p><img src="docs/nexus-logo.png" alt="Logo de NEXUS" width="180"> <img src="docs/aryos-logo.png" alt="Logo de A.R.Y.O.S." width="180"></p>
+
 ## Documentación pública del proyecto
 
 Este repositorio reúne la documentación institucional del proyecto desarrollado
@@ -15,6 +17,12 @@ La documentación está escrita para que pueda ser consultada por autoridades,
 docentes, familias y personas que no trabajen habitualmente con computadoras.
 
 ## Comenzar por aquí
+
+**Actualización al 12/11/2026:** avance general estimado por el equipo de
+**aproximadamente 90%**. El servidor, el campus, las apps y la activación por
+correo avanzaron; la integración RFID completa continúa en validación.
+
+[Leer los últimos avances y las pruebas pendientes](docs/ACTUALIZACION_AVANCES_2026-11-12.md).
 
 1. [Presentación institucional](docs/01_INFORME_MUNICIPALIDAD.md)
 2. [Índice general](docs/00_INDICE_GENERAL.md)
@@ -49,4 +57,7 @@ de trabajo del equipo.
 **Municipalidad:** Municipalidad de San Martín  
 **Fecha de inicio:** 06/08/2026  
 **Finalización prevista:** 26/11/2026  
-**Avance informado:** 65%  
+**Avance estimado por el equipo al 12/11/2026:** aproximadamente 90%
+
+El 65% de los informes del segundo mes se conserva como dato histórico. El
+porcentaje actual no equivale a una certificación de puesta en producción.

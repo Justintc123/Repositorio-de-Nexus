@@ -1,5 +1,11 @@
 # Informe de avance - Nexus + A.R.Y.O.S
 
+> Informe histórico del período indicado abajo. El equipo estima aproximadamente
+> 90% al 12/11/2026. Consultar la [actualización de avances](ACTUALIZACION_AVANCES_2026-11-12.md)
+> para el estado actual del servidor, las apps y la integración física. El montaje
+> actual informado usa STM32F446RE y UART PA0/PA1; las referencias anteriores a
+> F401RE no describen automáticamente ese montaje.
+
 ## Proyecto de integración tecnológica escolar
 
 **Período informado:** 06/08/2026 al 06/10/2026  

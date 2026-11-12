@@ -1,5 +1,24 @@
 # Mejoras de Nexus + A.R.Y.O.S
 
+**Actualizado al 12/11/2026.** La descripción general siguiente se complementa
+con el [informe de avances actuales](ACTUALIZACION_AVANCES_2026-11-12.md).
+
+## Incorporaciones recientes
+
+- Interfaz local v69, navegación móvil con Configuración y Más, y menús que se
+  mantienen dentro de la pantalla.
+- Separación de comunicados y mensajes, boletín compacto y ajustes de formularios.
+- Consulta de faltas y asistencia manual de respaldo desde preceptoría.
+- APK Android 1.1.0 instalado por USB, nuevo logo y estados de carga/conexión.
+- Cliente Windows empaquetado; Linux e iOS permanecen como ampliaciones pendientes.
+- Primer acceso mediante correo, creación de contraseña y activación real probada.
+- Preparación y arranque del servidor escolar, con acceso de red confirmado por
+  el usuario durante las pruebas.
+- Puente USB local a 115200, conectado a la base del campus actual, y credencial
+  ficticia DEMO-BOTON-001 preparada para el botón USER.
+- UART STM32–emisora probada en ambos sentidos según el equipo. Falta validar
+  el recorrido completo ESP-NOW–USB–servidor–respuesta.
+
 ## Resumen
 
 Durante el desarrollo se trabajó para convertir una idea inicial en un sistema
@@ -136,4 +155,6 @@ el montaje final.
 
 La PCB está diseñada, pero aún no fabricada. La carcasa y la validación final
 del montaje físico continúan en desarrollo. El avance general informado es del
-65%.
+aproximadamente 90% según la estimación del equipo al 12/11/2026. Las pruebas de
+integración, fabricación y cierre pendientes se detallan en la actualización;
+no se consideran completadas por el solo hecho de alcanzar esa estimación.

@@ -1,5 +1,11 @@
 # Pinout Nexus STM32 Hub R4
 
+> Referencia del diseño R4 anterior; no es el cableado confirmado del montaje
+> actual. Al 12/11/2026 el equipo informa STM32F446RE con A0/PA0 TX → GPIO4 RX
+> y A1/PA1 RX ← GPIO5 TX, a 115200. No cambiarlo por PA2/PA3 siguiendo esta tabla.
+> Los demás bloques requieren cotejo con el hardware y firmware de esa revisión.
+> Ver [avances actuales](../ACTUALIZACION_AVANCES_2026-11-12.md).
+
 ## TFT ST7796 + touch XPT2046
 
 | Nucleo | Modulo TFT/touch |

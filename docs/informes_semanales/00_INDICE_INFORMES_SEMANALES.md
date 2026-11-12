@@ -1,5 +1,8 @@
 # Informes semanales de avance
 
+Para el estado posterior a estos informes históricos, consultar la
+[actualización al 12/11/2026](../ACTUALIZACION_AVANCES_2026-11-12.md).
+
 Serie de informes reconstruidos retrospectivamente para documentar el trabajo del 06/08/2026 al 06/10/2026. Revisar cada PDF y agregar capturas o firmas cuando estén disponibles.
 
 - [01 - 06/08/2026 - 12/08/2026](./01_informe_semanal.pdf)

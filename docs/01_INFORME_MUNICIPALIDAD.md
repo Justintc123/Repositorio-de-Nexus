@@ -8,7 +8,10 @@
 **Equipo:** estudiantes de la institución  
 **Inicio del proyecto:** 06/08/2026  
 **Finalización prevista:** 26/11/2026  
-**Avance informado:** 65%
+**Avance estimado por el equipo al 12/11/2026:** aproximadamente 90%
+
+Esta presentación conserva el desarrollo de los primeros dos meses y se
+complementa con la [actualización del 12/11/2026](ACTUALIZACION_AVANCES_2026-11-12.md).
 
 ## Resumen
 
@@ -110,6 +113,21 @@ Durante los primeros dos meses se logró:
 
 ## Estado actual
 
+### Actualización al 12/11/2026
+
+El equipo estima un avance general de aproximadamente 90%. Se levantó el
+servidor y se confirmó acceso en red durante las pruebas; se mejoró el campus,
+se instaló el cliente Android y se probó el primer acceso por correo.
+La etapa actual se centra en cerrar la integración de asistencia y validar la
+instalación definitiva. La UART fue probada en ambos sentidos según el equipo;
+el recorrido completo por ESP-NOW, USB y servidor sigue pendiente.
+
+El proyecto ganó un bono de **$1.180.000 argentinos** mediante el **Fondo
+Municipal de Innovación Educativa 2026**, destinado a las etapas de desarrollo
+y prototipado de NEXUS.
+
+### Antecedente: cierre del segundo mes
+
 La plataforma web se encuentra avanzada y cuenta con los perfiles principales.
 El sistema físico fue probado como conjunto de prototipo. Las cinco ESP32-C3
 funcionaron correctamente.
@@ -118,7 +136,7 @@ La PCB fue diseñada, pero todavía no fue fabricada. También quedan tareas de
 ajuste de la carcasa, validación final del cableado y pruebas más extensas con
 el montaje definitivo.
 
-El porcentaje de avance informado es del 65%, porque la parte de software y la
+El porcentaje de avance informado en ese período fue del 65%, porque la parte de software y la
 arquitectura están más avanzadas que la fabricación y el cierre físico del
 dispositivo.
 

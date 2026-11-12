@@ -1,5 +1,10 @@
 # Cableado sin cruces - Nexus STM32 Hub R4
 
+> Diseño histórico R4. El montaje de prueba actual usa STM32F446RE y UART
+> PA0/PA1, según lo informado por el equipo el 12/11/2026. Las conexiones F401RE
+> y PA2/PA3 de esta revisión deben cotejarse antes de reutilizar el diseño.
+> Ver [estado actual](../ACTUALIZACION_AVANCES_2026-11-12.md).
+
 Esta revision esta pensada para conectar con Dupont sin volver a armar una protoboard.
 
 ## Regla de montaje
