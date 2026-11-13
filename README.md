@@ -5,7 +5,7 @@
 ## Documentación pública del proyecto
 
 Este repositorio reúne la documentación del proyecto desarrollado por el equipo
-NEXUS + A.R.Y.O.S., con el acompañamiento del docente Victor Javier Imoberdorff.
+NEXUS + A.R.Y.O.S.
 
 Nexus + A.R.Y.O.S propone una solución para ordenar tareas escolares como la
 asistencia, las notas, los trabajos, los comunicados y el seguimiento de los
