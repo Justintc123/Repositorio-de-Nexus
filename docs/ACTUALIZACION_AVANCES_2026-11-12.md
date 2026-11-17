@@ -106,7 +106,7 @@ remitente definitivo, la dirección pública y HTTPS. La recuperación de una
 contraseña olvidada y la migración masiva de cuentas anteriores son tareas
 distintas de este primer acceso y no se presentan como finalizadas.
 
-## 4. Servidor y preparación para el colegio
+## 4. Servidor y preparación para la implementación institucional
 
 Se preparó material de instalación y actualización para trasladar NEXUS a una
 PC con Windows destinada al servidor escolar. Se obtuvo respuesta del servidor
@@ -197,10 +197,19 @@ estado observado, el puente local todavía no había recibido solicitudes reales
 
 Estos pendientes corresponden a integración y cierre. La estimación del 90%
 no elimina la necesidad de completar estas pruebas antes de usar datos reales
-y operar el sistema de forma habitual en el colegio.
+y operar el sistema de forma habitual en la institución destinataria.
 
 ## Alcance de esta actualización pública
 
 Se publican avances y explicaciones del funcionamiento. El código, firmwares,
 instaladores, bases de alumnos, credenciales, claves de firma y configuraciones
 privadas se conservan fuera de este repositorio documental.
+
+## Alcance de implementación
+
+La implementación inicial de NEXUS + A.R.Y.O.S. está orientada directamente a
+una institución educativa. Comprende el servidor, el campus y los distintos
+perfiles de usuario, junto con la integración de los dispositivos de asistencia.
+Las pruebas de un módulo o de una lectura son verificaciones técnicas parciales
+dentro de ese despliegue institucional; no limitan el proyecto a un aula.
+La institución destinataria no se identifica en esta documentación pública.

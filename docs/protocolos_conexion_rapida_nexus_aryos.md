@@ -51,7 +51,7 @@ Objetivo: que preceptoría o soporte pueda recuperar asistencia y comunicaciones
 | Base bloqueada | Login funciona lento o falla al guardar | SQLite ocupado/disco lento | Esperar unos segundos, cerrar procesos duplicados, revisar backup |
 | WiFi caido | Celulares/PC no abren ARYOS | Router/AP apagado o saturado | Probar cable/LAN, reiniciar AP, verificar IP del servidor |
 | Cambio de IP | Antes entraba, ahora no | DHCP cambio IP local | Consultar IP del servidor y actualizar acceso local |
-| Tunel externo caido | Fuera del colegio no abre | Cloudflare/tunel detenido | Reiniciar `aryos-tunnel.service` y revisar URL/DNS |
+| Tunel externo caido | Fuera de la red institucional no abre | Cloudflare/tunel detenido | Reiniciar `aryos-tunnel.service` y revisar URL/DNS |
 | ESP32-C3 sin señal | Nexus indica sin dispositivos | Sin 3V3, firmware detenido, WiFi/ESP-NOW caido | Reset ESP32, revisar 3V3/GND, cargar firmware |
 | STM32 sin respuesta | TFT/LED/buzzer no reaccionan | Alimentacion o firmware STM32 | Reset Nucleo, revisar USB/5V, reflashear si persiste |
 | RDM6300 sin lecturas | Tarjeta no registra | 5V/GND, TX/RX invertidos, antena suelta | Revisar 5V, PA10<-TX, PA9->RX, ANT1/ANT2 |

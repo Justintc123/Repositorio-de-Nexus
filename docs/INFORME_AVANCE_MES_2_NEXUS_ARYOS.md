@@ -10,9 +10,7 @@
 
 **Período informado:** 06/08/2026 al 06/10/2026  
 **Finalización prevista:** 26/11/2026  
-**Institución:** EST UTN "Werner von Siemens"  
 **Municipalidad:** Municipalidad de San Martín  
-**Docente responsable:** Victor Javier Imoberdorff  
 **Avance estimado defendible:** 65%  
 
 ### Integrantes

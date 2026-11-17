@@ -27,8 +27,9 @@ correo avanzaron; la integración RFID completa continúa en validación.
 2. [Índice general](docs/00_INDICE_GENERAL.md)
 3. [Informes de avance mensuales](docs/informes_avance/00_INDICE_INFORMES_AVANCE.md)
 4. [Informe de avance del segundo mes](docs/INFORME_AVANCE_MES_2_NEXUS_ARYOS.md)
-5. [Informes semanales](docs/informes_semanales/00_INDICE_INFORMES_SEMANALES.md)
-6. [Informes complementarios](docs/informes_complementarios/)
+5. [Informe de avance del tercer mes](docs/INFORME_AVANCE_MES_3_NEXUS_ARYOS.md)
+6. [Informes semanales](docs/informes_semanales/00_INDICE_INFORMES_SEMANALES.md)
+7. [Informes complementarios](docs/informes_complementarios/)
 
 ## Qué contiene
 
@@ -59,3 +60,12 @@ de trabajo del equipo.
 
 El 65% de los informes del segundo mes se conserva como dato histórico. El
 porcentaje actual no equivale a una certificación de puesta en producción.
+
+## Alcance de implementación
+
+La implementación inicial de NEXUS + A.R.Y.O.S. está orientada directamente a
+una institución educativa. Comprende el servidor, el campus y los distintos
+perfiles de usuario, junto con la integración de los dispositivos de asistencia.
+Las pruebas de un módulo o de una lectura son verificaciones técnicas parciales
+dentro de ese despliegue institucional; no limitan el proyecto a un aula.
+La institución destinataria no se identifica en esta documentación pública.

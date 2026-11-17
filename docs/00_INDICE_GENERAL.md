@@ -7,9 +7,12 @@
 Incluye campus v69, clientes Android y Windows, activación por correo, servidor,
 UART, puente USB y estado pendiente de la prueba ESP-NOW completa.
 
-## Lectura institucional
+## Documentación del proyecto
 
-- [Presentación para la Municipalidad de San Martín](./01_INFORME_MUNICIPALIDAD.md)
+- [Informe del tercer mes y actualización de cierre](./INFORME_AVANCE_MES_3_NEXUS_ARYOS.md)
+- [Informe del tercer mes en PDF](./informes_avance/INFORME_AVANCE_MES_3_NEXUS_ARYOS.pdf)
+
+- [Presentación del proyecto](./01_INFORME_MUNICIPALIDAD.md)
 - [Informes de avance mensuales](./informes_avance/00_INDICE_INFORMES_AVANCE.md)
 - [Informe de avance del segundo mes](./INFORME_AVANCE_MES_2_NEXUS_ARYOS.md)
 - [Mejoras realizadas en Nexus y A.R.Y.O.S](./MEJORAS_NEXUS_ARYOS.md)

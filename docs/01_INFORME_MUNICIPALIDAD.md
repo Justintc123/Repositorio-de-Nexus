@@ -1,10 +1,8 @@
 # Nexus + A.R.Y.O.S
 
-## Presentación institucional
+## Presentación del proyecto
 
-**Institución:** EST UTN “Werner von Siemens”  
 **Municipalidad:** Municipalidad de San Martín  
-**Docente responsable:** Victor Javier Imoberdorff  
 **Equipo:** estudiantes de la institución  
 **Inicio del proyecto:** 06/08/2026  
 **Finalización prevista:** 26/11/2026  
@@ -186,3 +184,12 @@ plataforma digital con un dispositivo físico.
 El proyecto todavía se encuentra en etapa de prototipo, pero ya cuenta con una
 base funcional, pruebas realizadas y una planificación clara para completar la
 integración antes del 26/11/2026.
+
+## Alcance de implementación
+
+La implementación inicial de NEXUS + A.R.Y.O.S. está orientada directamente a
+una institución educativa. Comprende el servidor, el campus y los distintos
+perfiles de usuario, junto con la integración de los dispositivos de asistencia.
+Las pruebas de un módulo o de una lectura son verificaciones técnicas parciales
+dentro de ese despliegue institucional; no limitan el proyecto a un aula.
+La institución destinataria no se identifica en esta documentación pública.
