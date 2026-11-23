@@ -1,6 +1,6 @@
 # Registro fotográfico de NEXUS
 
-Las fotografías del 20 de noviembre de 2026 muestran la evolución de la carcasa del módulo principal, el mini módulo para docentes y las credenciales RFID.
+Las fotografías del 20 de noviembre de 2026 muestran el desarrollo físico de NEXUS, desde el modelado 3D y las primeras carcasas hasta el montaje, las credenciales y las pantallas del sistema.
 
 ## Evolución del módulo principal
 
@@ -28,8 +28,40 @@ El equipo desarrolló un prototipo compacto para docentes, con pantalla propia y
 
 <img src="fotos/05-electronica-docentes.jpg" alt="Montaje del mini módulo con la pantalla compacta, el lector y la antena RFID, las placas y el cableado." width="460">
 
+**Reverso de la placa del mini módulo, con las pistas y soldaduras visibles, junto a la antena y la pantalla.**
+
+<img src="fotos/11-soldaduras-mini-modulo.jpg" alt="Reverso de la placa del mini módulo, con las pistas y soldaduras visibles, junto a la antena y la pantalla." width="460">
+
+## Modelado 3D
+
+**Modelo 3D de una caja ventilada con tapa, junto a una placa de referencia.**
+
+<img src="fotos/07-modelado-caja.jpg" alt="Modelo 3D de una caja ventilada con tapa, junto a una placa de referencia." width="460">
+
+**Vista en CAD de una carcasa compacta con su tapa separada.**
+
+<img src="fotos/08-modelado-carcasa.jpg" alt="Vista en CAD de una carcasa compacta con su tapa separada." width="460">
+
 ## Credenciales RFID
 
 <img src="fotos/06-credenciales.jpg" alt="Lote de tarjetas RFID preparado para el proyecto." width="460">
 
-El registro documenta el montaje físico y las pantallas en espera de una credencial. La validación de punta a punta del registro de asistencia se documenta por separado en los [informes de avance](informes_avance/00_INDICE_INFORMES_AVANCE.md).
+**Módulo principal encendido junto a un lote de credenciales.**
+
+<img src="fotos/12-modulo-y-credenciales.jpg" alt="Módulo principal encendido junto a un lote de credenciales." width="460">
+
+**Pantalla de prueba montada sobre un soporte, con el aviso para acercar la tarjeta y credenciales en primer plano.**
+
+<img src="fotos/13-pantalla-y-tarjetas.jpg" alt="Pantalla de prueba montada sobre un soporte, con el aviso para acercar la tarjeta y credenciales en primer plano." width="460">
+
+## A.R.Y.O.S. y servidor local
+
+**Pantalla de ingreso de A.R.Y.O.S. con los campos de acceso vacíos.**
+
+<img src="fotos/09-acceso-aryos.jpg" alt="Pantalla de ingreso de A.R.Y.O.S. con los campos de acceso vacíos." width="460">
+
+**Monitor local con respuestas HTTP 200 de la API de NEXUS y del campus A.R.Y.O.S.**
+
+<img src="fotos/10-monitor-local.jpg" alt="Monitor local con respuestas HTTP 200 de la API de NEXUS y del campus A.R.Y.O.S." width="460">
+
+El monitor documenta la respuesta de los servicios en la computadora de prueba. La validación de punta a punta del registro de asistencia se documenta por separado en los [informes de avance](informes_avance/00_INDICE_INFORMES_AVANCE.md).
