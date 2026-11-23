@@ -31,6 +31,8 @@ de cuentas por correo. La integración RFID completa continúa en validación.
 6. [Informes semanales](docs/informes_semanales/00_INDICE_INFORMES_SEMANALES.md)
 7. [Informes complementarios](docs/informes_complementarios/)
 
+[Registro fotográfico del hardware](docs/REGISTRO_FOTOGRAFICO_NEXUS.md)
+
 ## Datos del proyecto
 
 - **Municipalidad:** Municipalidad de San Martín.

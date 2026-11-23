@@ -77,3 +77,5 @@ NEXUS obtuvo un bono de $1.180.000 argentinos mediante el Fondo Municipal de Inn
 Informe retrospectivo basado en la actualización de avances del 12/11/2026, las mejoras de NEXUS + A.R.Y.O.S., los protocolos de conexión y los informes previos del repositorio. La actualización del 12 de noviembre tiene precedencia sobre las referencias técnicas históricas.
 
 No se asignan fechas de ejecución ni resultados adicionales a tareas sin evidencia individual. Los avances posteriores a ese corte deberán agregarse con sus pruebas. Este informe sirve para preparar el cierre previsto y no constituye una certificación de finalización.
+
+[Registro fotográfico del 20/11/2026](REGISTRO_FOTOGRAFICO_NEXUS.md), posterior al corte del informe.
