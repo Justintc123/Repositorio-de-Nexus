@@ -1,195 +1,78 @@
-# Nexus + A.R.Y.O.S
+# NEXUS + A.R.Y.O.S.
 
 ## Presentación del proyecto
 
-**Municipalidad:** Municipalidad de San Martín  
-**Equipo:** estudiantes de la institución  
-**Inicio del proyecto:** 06/08/2026  
-**Finalización prevista:** 26/11/2026  
-**Avance estimado por el equipo al 12/11/2026:** aproximadamente 90%
+NEXUS + A.R.Y.O.S. busca facilitar la organización de una institución educativa
+mediante una plataforma común para asistencia, calificaciones, trabajos,
+comunicados, documentos y seguimiento de estudiantes.
 
-Esta presentación conserva el desarrollo de los primeros dos meses y se
-complementa con la [actualización del 12/11/2026](ACTUALIZACION_AVANCES_2026-11-12.md).
+La propuesta combina el campus A.R.Y.O.S. con NEXUS, que coordina el servidor y la
+conexión con los dispositivos RFID. El alcance contempla la implementación
+institucional completa.
 
-## Resumen
+## Docentes titulares y adultos responsables
 
-Nexus + A.R.Y.O.S es un proyecto escolar que busca mejorar la forma en que se
-organiza la información de una institución educativa.
-
-La propuesta reúne en un mismo sistema tareas que normalmente se hacen por
-separado: asistencia, notas, trabajos, comunicados, documentos y seguimiento de
-los alumnos. También incorpora un dispositivo físico para registrar asistencia
-mediante tarjetas RFID.
-
-El proyecto combina programación, electrónica, diseño, organización de datos y
-trabajo en equipo. Durante los primeros dos meses se desarrolló una versión
-avanzada del sistema y se realizaron pruebas con los componentes principales.
-
-## El problema que queremos resolver
-
-En una escuela la información suele estar repartida entre planillas, mensajes,
-carpetas y anotaciones. Esto puede provocar pérdida de tiempo, datos repetidos,
-dificultad para encontrar información y errores al momento de comunicar algo.
-
-El proyecto propone una plataforma común, con diferentes accesos según la
-función de cada persona. Así, cada usuario encuentra las herramientas que
-necesita sin tener que recorrer todo el sistema.
-
-## Cómo funciona la propuesta
-
-### A.R.Y.O.S
-
-A.R.Y.O.S es la parte que utilizan las personas. Permite organizar:
-
-- asistencia y novedades;
-- comunicados;
-- agenda escolar;
-- trabajos prácticos y entregas;
-- calificaciones por trimestre;
-- documentos;
-- mensajes;
-- seguimiento de convivencia;
-- reportes.
-
-### Nexus
-
-Nexus es la parte central que coordina la información y las conexiones. Su
-función es unir el campus web con el dispositivo físico de asistencia y ayudar a
-detectar problemas de comunicación.
-
-### Sistema RFID
-
-El lector RFID identifica una tarjeta de prueba. La lectura pasa por una placa
-STM32, luego se transmite mediante dos módulos ESP32-C3 y finalmente llega al
-sistema central. A.R.Y.O.S recibe el evento y puede registrar la asistencia.
-
-## Usuarios contemplados
-
-El sistema fue organizado para cuatro perfiles principales:
-
-### Alumno
-
-Puede consultar sus trabajos, entregas, comunicados, documentos y notas de cada
-trimestre.
-
-### Profesor o maestro
-
-Puede publicar trabajos, revisar entregas, cargar calificaciones, calcular
-promedios y establecer una nota final.
-
-### Preceptor
-
-Puede trabajar por curso, tomar asistencia, registrar ausencias, tardanzas,
-retiros y situaciones de convivencia, además de descargar reportes.
-
-### Tutor
-
-Puede consultar la información habilitada del alumno vinculado, como
-comunicados, agenda, trabajos y calificaciones.
-
-También existe un perfil de administración para gestionar usuarios, cursos,
-documentos, reportes y la configuración general.
-
-## Avances alcanzados
-
-Durante los primeros dos meses se logró:
-
-1. Diseñar la estructura general de Nexus y A.R.Y.O.S.
-2. Organizar la plataforma según perfiles de usuario.
-3. Preparar la sección de notas por trimestre y materia.
-4. Incorporar asistencia, convivencia y reportes para preceptoría.
-5. Preparar mensajería, trabajos, entregas y documentos.
-6. Definir el recorrido técnico del sistema RFID.
-7. Probar las cinco ESP32-C3 Super Mini disponibles.
-8. Seleccionar dos placas para el montaje final: una emisora y una receptora.
-9. Diseñar varias revisiones de una PCB de interconexión.
-10. Probar conectados la STM32, el RFID, la pantalla, los indicadores y las
-    ESP32.
-11. Documentar procedimientos de recuperación ante fallas.
-12. Preparar informes, material de presentación y un plan de trabajo para las
-    etapas restantes.
-
-## Estado actual
-
-### Actualización al 12/11/2026
-
-El equipo estima un avance general de aproximadamente 90%. Se levantó el
-servidor y se confirmó acceso en red durante las pruebas; se mejoró el campus,
-se instaló el cliente Android y se probó el primer acceso por correo.
-La etapa actual se centra en cerrar la integración de asistencia y validar la
-instalación definitiva. La UART fue probada en ambos sentidos según el equipo;
-el recorrido completo por ESP-NOW, USB y servidor sigue pendiente.
-
-El proyecto ganó un bono de **$1.180.000 argentinos** mediante el **Fondo
-Municipal de Innovación Educativa 2026**, destinado a las etapas de desarrollo
-y prototipado de NEXUS.
-
-### Antecedente: cierre del segundo mes
-
-La plataforma web se encuentra avanzada y cuenta con los perfiles principales.
-El sistema físico fue probado como conjunto de prototipo. Las cinco ESP32-C3
-funcionaron correctamente.
-
-La PCB fue diseñada, pero todavía no fue fabricada. También quedan tareas de
-ajuste de la carcasa, validación final del cableado y pruebas más extensas con
-el montaje definitivo.
-
-El porcentaje de avance informado en ese período fue del 65%, porque la parte de software y la
-arquitectura están más avanzadas que la fabricación y el cierre físico del
-dispositivo.
-
-## Dificultades y aprendizajes
-
-Durante las pruebas se dañó la bobina del lector RFID por una conexión
-incorrecta. El equipo revisó el procedimiento y decidió reforzar la identificación
-de cables, verificar la alimentación antes de encender los módulos y documentar
-las conexiones antes de continuar.
-
-Esta situación permitió entender que un proyecto tecnológico no depende solo de
-que el código funcione. También es necesario probar la alimentación, ordenar los
-cables, proteger los componentes y dejar instrucciones claras para futuras
-reparaciones.
-
-## Próximas etapas
-
-Durante los meses restantes se prevé:
-
-- fabricar y probar la PCB;
-- terminar la carcasa;
-- validar las conexiones definitivas;
-- confirmar la pantalla y su alimentación;
-- realizar una prueba completa de asistencia;
-- revisar la experiencia de los distintos perfiles;
-- completar capturas, videos y evidencias;
-- preparar una demostración estable;
-- documentar el cierre del proyecto.
+- **Leandro Boned**
+- **Víctor Imobedorff**
 
 ## Equipo de trabajo
 
-- Justin Terrel: coordinación general, Nexus y A.R.Y.O.S.
-- Tiziano Del Papa: programación y pruebas funcionales.
-- Juan Martin Orona Vizcaino: diseño y correcciones de la carcasa.
-- Franco del Monte: placa, pantalla e interfaz del dispositivo.
-- Santiago Naveira: coordinación, documentación y presentación.
-- Ian Hugo Gonzalez: PCB, cableado y pruebas de conexiones.
-- Tiziano Arrieta: apoyo en PCB, pruebas y documentación; se incorporó durante
-  las últimas dos semanas del período informado.
+- **Justin Terrel:** coordinación general y desarrollo de NEXUS y A.R.Y.O.S.
+- **Tiziano Del Papa:** programación y pruebas funcionales.
+- **Juan Martín Orona Vizcaino:** diseño y ajustes de la carcasa.
+- **Franco del Monte:** placa, pantalla e interfaz del dispositivo.
+- **Santiago Naveira:** coordinación, documentación y presentación.
+- **Ian Hugo Gonzalez:** PCB, cableado y pruebas de conexiones.
+- **Tiziano Arrieta:** apoyo en PCB, pruebas y documentación.
 
-## Cierre
+## Usuarios y funcionamiento
 
-Nexus + A.R.Y.O.S representa una experiencia de aprendizaje integral. El equipo
-trabaja sobre una necesidad concreta de la escuela y la aborda combinando una
-plataforma digital con un dispositivo físico.
+El campus dispone de perfiles de alumno, docente, preceptor, tutor y administrador.
+Cada uno accede a las funciones relacionadas con sus tareas.
 
-El proyecto todavía se encuentra en etapa de prototipo, pero ya cuenta con una
-base funcional, pruebas realizadas y una planificación clara para completar la
-integración antes del 26/11/2026.
+El alumno consulta trabajos, notas y faltas. El docente publica actividades,
+revisa entregas y carga calificaciones. Preceptoría registra asistencia y
+convivencia. Los tutores consultan la información de los alumnos vinculados.
+Administración gestiona usuarios, cursos, permisos y configuración.
 
-## Alcance de implementación
+Para la asistencia RFID, el recorrido previsto conecta la credencial, el módulo
+lector, el servidor y el campus. La confirmación al usuario debe corresponder a
+un registro efectivamente guardado.
 
-La implementación inicial de NEXUS + A.R.Y.O.S. está orientada directamente a
-una institución educativa. Comprende el servidor, el campus y los distintos
-perfiles de usuario, junto con la integración de los dispositivos de asistencia.
-Las pruebas de un módulo o de una lectura son verificaciones técnicas parciales
-dentro de ese despliegue institucional; no limitan el proyecto a un aula.
-La institución destinataria no se identifica en esta documentación pública.
+## Estado al 12 de noviembre de 2026
+
+El equipo estima un avance general de aproximadamente **90%**. Se levantó el
+servidor y se informó acceso en red durante las pruebas. Se mejoró el campus,
+se instaló el cliente Android en un teléfono y se probó la activación de cuentas
+por correo.
+
+La comunicación UART entre la STM32 y la emisora fue probada en ambos sentidos
+según el equipo. El recorrido completo por ESP-NOW, USB, servidor y respuesta
+continúa pendiente. La fabricación definitiva de la PCB, el montaje de la
+carcasa y las pruebas de aceptación requieren confirmación.
+
+[Ver la actualización técnica completa](ACTUALIZACION_AVANCES_2026-11-12.md).
+
+## Financiamiento y cronograma
+
+El proyecto obtuvo un bono de **$1.180.000 argentinos** mediante el **Fondo
+Municipal de Innovación Educativa 2026**, para desarrollo, prototipado y pruebas.
+
+El inicio documentado es el **06/08/2026** y la finalización prevista es el
+**26/11/2026**. Los informes mensuales conservan la evolución y las dificultades
+de cada etapa.
+
+## Próximos pasos
+
+- Completar la comunicación RFID de ida y vuelta y comprobar el registro en el campus.
+- Validar credenciales desconocidas, duplicados y recuperación ante desconexiones.
+- Consolidar la instalación, las copias de seguridad y las pruebas de los cinco perfiles.
+- Confirmar la fabricación y el montaje definitivo de placa y carcasa.
+- Incorporar fotografías y resultados de pruebas al registro de avances.
+
+## Informes
+
+- [Índice de informes mensuales](informes_avance/00_INDICE_INFORMES_AVANCE.md)
+- [Informe del segundo mes](INFORME_AVANCE_MES_2_NEXUS_ARYOS.md)
+- [Informe del tercer mes](INFORME_AVANCE_MES_3_NEXUS_ARYOS.md)
+- [Informes semanales](informes_semanales/00_INDICE_INFORMES_SEMANALES.md)
